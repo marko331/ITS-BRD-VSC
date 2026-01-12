@@ -1,0 +1,20 @@
+build-idx:
+  generated-by: csolution version 2.12.0+p41-gfeadfc5e
+  cdefault: ${CMSIS_COMPILER_ROOT}/cdefault.yml
+  csolution: Schiebepuzzle.csolution.yml
+  cbuild-run: out/Schiebepuzzle+ITSboard.cbuild-run.yml
+  tmpdir: tmp
+  cprojects:
+    - cproject: Schiebepuzzle.cproject.yml
+  cbuilds:
+    - cbuild: out/Schiebepuzzle/ITSboard/Debug/Schiebepuzzle.Debug+ITSboard.cbuild.yml
+      project: Schiebepuzzle
+      configuration: .Debug+ITSboard
+      messages:
+        info:
+          - Schiebepuzzle.cbuild-pack.yml - file is already up-to-date
+          - Schiebepuzzle+ITSboard.cbuild-run.yml - file is already up-to-date
+          - Schiebepuzzle.Debug+ITSboard.cbuild.yml - file is already up-to-date
+      packs-unused:
+        - pack: ARM::CMSIS-DSP@1.16.2
+        - pack: ARM::CMSIS-NN@7.0.0
