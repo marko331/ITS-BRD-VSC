@@ -9,8 +9,7 @@
  * @version 1.0
  *
  * @date    10. Jan. 2026
- * @brief   Dieses Modul kapselt den Standard-Pseudozufallsgenerator fuer die
- *          Schiebepuzzle Klausuraufgabe.
+ * @brief   Dieses Modul kapselt den Standard-Pseudozufallsgenerator.
  ******************************************************************************
  */
  

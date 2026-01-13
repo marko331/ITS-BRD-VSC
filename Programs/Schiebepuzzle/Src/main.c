@@ -11,13 +11,14 @@
 #include "io.h"
 #include "display.h"
 #include "LCD_Touch.h"
+#include "delay.h"
 #include "game.h"
 #include "LCD_GUI.h"
-#include "stm32f4xx_hal.h"
 #include <stdint.h>
 #include <test.h>
 
-#define NO_BUTTONS   8
+#define NO_BUTTONS             8
+#define DELAY_AFTER_GAME_OVER  3000    // Delay in ms
 
 int main(void) {
 	initITSboard();    // Initialisierung des ITS Boards
@@ -65,7 +66,7 @@ int main(void) {
 		}
 		bool valid_input = no_pressed_buttons < 2;
 		if (game_over()){
-			HAL_Delay(3000);
+			delay(DELAY_AFTER_GAME_OVER);
 			init_board();
 		}
 		if (valid_input){
@@ -80,5 +81,4 @@ int main(void) {
 		draw_board();
 	}
 }
-
 // EOF

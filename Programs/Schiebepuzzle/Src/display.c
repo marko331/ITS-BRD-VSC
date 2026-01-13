@@ -22,67 +22,71 @@
 
 /**
  * @defgroup DISPLAY_CONS 
- * @brief Die Konstanten dieser Gruppe definieren die Abmasse
+ * @brief Die Konstanten dieser Gruppe definieren die Abmaße
  *        der Elemente des Spielfelds in Pixel.
  */
 
 /**
  * @ingroup DISPLAY_CONS
- * @brief Diese Konstante definiert die Kantenlänge der quadratischen Spielsteine.
+ * @brief Diese Konstante definiert die Kantenlänge der quadratischen Spielsteine
+ *        in Pixel.
  */
-#define E_S         		90    // Kantenlänge eines Spielsteins
+#define E_S         		90
+
 /**
  * @ingroup DISPLAY_CONS
- * @brief Diese Konstante definiert den Abstand zwischen zwei Spielsteinen.
+ * @brief Diese Konstante definiert den Abstand zwischen zwei Spielsteinen
+ *.       in Pixel.
  */
 #define GAP                	 5
 
 /**
  * @ingroup DISPLAY_CONS
- * @brief Diese Konstante definiert die Zeile des oberen linken Felds.
+ * @brief Diese Konstante definiert die Display-Zeile des oberen linken Felds.
  */
 #define TL_X 			    95
 
 /**
  * @ingroup DISPLAY_CONS
- * @brief Diese Konstante definiert die Spalte des oberen linken Felds.
+ * @brief Diese Konstante definiert die Display-Spalte des oberen linken Felds.
  */
 #define TL_Y 				15
 
 /**
  * @ingroup DISPLAY_CONS
- * @brief Diese Konstante definiert die Farbe des leeren Felds.
+ * @brief Diese Konstante definiert die Farbe eines freien Felds.
  */
 #define CLR_NO_PIECE 	    BLACK
 
 /**
  * @ingroup DISPLAY_CONS
- * @brief Diese Konstante definiert die Farbe eines Spielsteins
+ * @brief Diese Konstante definiert die Farbe eines Spielsteins.
  */
 #define CLR_PIECE          GREEN
 
 /**
  * @ingroup DISPLAY_CONS
- * @brief Diese Konstante definiert die Farbe der Zahlen auf den Spielsteinen
+ * @brief Diese Konstante definiert die Farbe der Zahl auf einem Spielstein.
  */
 #define CLR_PIECE_FONT		BLUE
 
 /**
  * @ingroup DISPLAY_CONS
- * @brief Diese Konstante den Font der Zahlen auf den Spielsteinen
+ * @brief Diese Konstante definiert den Font der Zahl auf einem Spielstein.
  */
 #define PIECE_FONT		FiraMono60FLASH
 
 /**
  * @ingroup DISPLAY_CONS
- * @brief Dieses Feld definiert die Positionen der 9 Felder. 
+ * @brief Dieses Feld definiert die Display-Positionen der 9 Felder. 
  *
- * Die erste Felddimension definiert die Zeile. Die zweite Felddimension
- * definiert die Spalte. Somit liefert feld_pos[0][1] die Bildschirm-
- * position des mittleren Felds der obersten Zeile.
+ * Die erste Felddimension entspricht der Zeile des Spielfelds. Die zweite 
+ * Felddimension entspricht der Spalte des Spielfelds. Somit liefert
+ * field_pos[0][1] die Bildschirmposition des mittleren Felds der oberen
+ * Zeile des Spielfelds.
  *
- * Die Position eines Felds wird über die Koordinate der linke obere (tr)
- * und die Koordinate der rechten untere Ecke des Rechtecks, das das Feld 
+ * Die Display-Position eines Felds wird über die Koordinaten linke 
+ * obere (tr) und rechte untere (br) Ecke des Rechtecks, das das Feld
  * aufspannt, definiert. Diese Koordinaten können direkt an die 
  * GUI_drawRectangle Funktion übergeben werden.
  */

@@ -63,12 +63,12 @@ void draw_board(void){
 
 /**
  * @brief Diese Funktion überprüft, ob zwei Felder horizontal oder 
- *        oder vertial auf dem Spielfeld nebeneinander angeordnet sind.
+ *        vertikal auf dem Spielfeld nebeneinander angeordnet sind.
  *
- * @param  row_1 Spalte des ersten Felds
- * @param  col_1 Zeile des ersten Felds
- * @param  row_2 Spalte des zweiten Felds
- * @param  col_2 Zeile des zweiten Felds
+ * @param  row_1 Zeile des ersten Felds
+ * @param  col_1 Spalte des ersten Felds
+ * @param  row_2 Zeile des zweiten Felds
+ * @param  col_2 Spalte des zweiten Felds
  *
  * @retval true gdw die beiden Felder sind horizontal oder vertikal 
  *         nebeneinander angeordnet.
@@ -110,5 +110,4 @@ bool game_over(void){
     }
     return erg;
 }
-
 // EOF

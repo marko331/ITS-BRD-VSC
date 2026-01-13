@@ -2,6 +2,11 @@
  ******************************************************************************
  * @file    test.h
  * @author  Franz Korf
+ *          HAW-Hamburg
+ *          Labor fuer technische Informatik
+ *          Berliner Tor  7
+ *          D-20099 Hamburg
+ * @version 1.0
  *
  * @date    10. Jan. 2026
  *
@@ -13,12 +18,11 @@
 #ifndef _TEST_H
 #define _TEST_H
 
-// Diese define Anweisungen aktivieren die Tests der 
-// entsprechenden Aufgaben.
+// Diese define Anweisungen aktivieren die Tests der entsprechenden Aufgaben.
 
 // #define AUFGABE3
 // #define AUFGABE4
-#define AUFGABE5
+// #define AUFGABE5
 
 #ifdef AUFGABE3
 /**
@@ -36,7 +40,7 @@ void test_display(void);
 
 #ifdef AUFGABE5 
 /**
- * @brief  Test des Moduls kniffel. 
+ * @brief  Test des Moduls game. 
  */
 void test_game(void);
 #endif

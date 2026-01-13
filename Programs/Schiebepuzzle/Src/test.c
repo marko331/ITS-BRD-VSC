@@ -13,14 +13,13 @@
 #include "test.h"
 #include "delay.h"
 #include "main.h"
-#include "stm32f429xx.h"
-#include <stdint.h>
 
 #define DELAY    250     // Delay in ms zwischen Teiltests
 
 #ifdef AUFGABE3
 #include <stm32f429xx.h>
 #include "io.h"
+#include <stdint.h>
 
 #define BLUE_LEDS_PORT             (GPIOD)
 
@@ -32,9 +31,7 @@
   *         Für 0 < i < 8: Bit i von leds_on gesetzt gdw LED D(i+8) angeschaltet
   */
 void set_blue_LEDs(uint8_t leds_on){
-   // erzeuge Maske
    uint32_t v = ((uint32_t) leds_on) & 0xFF;
-   // treibe Ports
    BLUE_LEDS_PORT->BSRR = v;
    v = (~v & 0xFF) << 16;
    BLUE_LEDS_PORT->BSRR = v;
@@ -58,14 +55,14 @@ void test_IO(void){
 #include "display.h"
 
 void test_display(void){
-	// Das gesamte LCD Display auf blau gesetzt
+	// Das gesamte LCD Display wird auf blau gesetzt
 	int delta = 4 * DELAY;
 	clear_display();
 	delay(delta);
 
-	// Auf dem LCD Display werden die Spielsteine aufsteigender Reihenfolge
-	// angeordnet. Das Spielfeld unteren rechts ist leer.
-	// Belegung des Spielfeld   
+	// Auf dem LCD Display werden die Spielsteine in aufsteigender
+	// Reihenfolge angeordnet. Das Feld unten rechts ist frei.
+	// Belegung des Spielfelds   
 	//         0  1  2
 	//         3  4  5
 	//         6  7  _
@@ -74,7 +71,7 @@ void test_display(void){
 	}
 	delay(delta);
 
-	// Die Spielsteine werden so verschoben, dass das leere Feld 
+	// Die Spielsteine werden so verschoben, dass das freie Feld 
 	// im Uhrzeigersinn (rechts rum) am Spielfeldrand lang 
 	// platziert wird.
 
@@ -108,19 +105,18 @@ void test_display(void){
 
 	display_piece(2, 2,  NO_PIECE);
 	display_piece(1, 2,  7);
-	delay(3*delta);
 
 	// Belegung des Spielfelds
 	//         1  2  5
 	//         0  4  7
 	//         3  6  _
+	delay(3*delta);
 
-	// Das gesamte LCD Display auf blau gesetzt
+	// Das gesamte LCD Display wird auf blau gesetzt.
 	clear_display();
 	delay(delta);
 
-	// Alle Spielfelder sind leer - kein Stein ist auf dem Spielfeld
-
+	// Alle Felder werden auf frei gesetzt - kein Stein ist auf dem Spielfeld
 	for (uint8_t piece = 0; piece <= NO_PIECE; piece++){
 		display_piece(piece / GRID_SIZE, piece % GRID_SIZE,  NO_PIECE);
 	}
@@ -145,8 +141,8 @@ void test_display(void){
 void test_game(void){
 	int delta = 4 * DELAY;
 
-	// Liege in aufsteigender Reihenfolge die Spielsteine auf
-	// das Board und stelle es auf dem Display dar
+	// Die Spielsteine werden in aufsteigender Reihenfolge auf
+	// das Spielfeld gelegt. Das Spielfeld wird auf dem Display dargestellt.
 	// Belegung des Spielfelds
 	//         0  1  2
 	//         3  4  5
@@ -159,8 +155,8 @@ void test_game(void){
 	draw_board();
 	delay(delta);
 
-	// Schiebe Stein die Steine am äußeren Rand gegen den Uhrzeigersinn 
-	// in die Lücke
+	// Die Spielsteine werden gegen den Uhrzeigersinn (links herum) am äußeren 
+	// Rand auf das benachtbarte freie Feld geschoben.
 	move(5);
 	draw_board();
 	delay(delta);
@@ -195,8 +191,8 @@ void test_game(void){
 	//  6  _  2
 	//  7  4  5
 
-	// Das Bewegen der Steine 3, 1, 7 und 5 dürfen den Status des 
-	// Spiels nicht verändern
+	// Das Bewegen einer der Steine 3, 1, 7 und 5 darf den Status des 
+	// Spiels nicht verändern.
 	move(3);
 	draw_board();
 	delay(delta);
@@ -212,7 +208,7 @@ void test_game(void){
 
 	// Teste game_over
 	if (! game_over()){
-		// Erzeuge der Ergebnisspielfeld und stelle es auf dem Display dar
+		// Erzeuge das Ergebnisspielfeld und stelle es auf dem Display dar
 		for (uint8_t piece = 0; piece <= NO_PIECE; piece++){
 			place_piece(piece / GRID_SIZE, piece % GRID_SIZE, piece);
 		}
@@ -222,7 +218,7 @@ void test_game(void){
 	// Das Ergebnisspielfeld wird dargestellt
 
 	if (game_over()){
-		// gezeuge immer wieder neue Startbelegungen
+		// Erzeuge immer wieder neue Startbelegungen
 		while(1){
 			init_board();
 			draw_board();
