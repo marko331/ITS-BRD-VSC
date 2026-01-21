@@ -154,6 +154,11 @@ void test_game(void){
 	clear_display();
 	draw_board();
 	delay(delta);
+	// Keine Stein wird neu gezeichnet, da keine Änderung vorliegt.
+	draw_board();
+	delay(delta);
+	draw_board();
+	delay(delta);
 
 	// Die Spielsteine werden gegen den Uhrzeigersinn (links herum) am äußeren 
 	// Rand auf das benachtbarte freie Feld geschoben.
@@ -207,7 +212,7 @@ void test_game(void){
 	delay(delta);
 
 	// Teste game_over
-	if (! game_over()){
+	while (! game_over()){
 		// Erzeuge das Ergebnisspielfeld und stelle es auf dem Display dar
 		for (uint8_t piece = 0; piece <= NO_PIECE; piece++){
 			place_piece(piece / GRID_SIZE, piece % GRID_SIZE, piece);
@@ -217,16 +222,12 @@ void test_game(void){
 	}
 	// Das Ergebnisspielfeld wird dargestellt
 
-	if (game_over()){
-		// Erzeuge immer wieder neue Startbelegungen
-		while(1){
-			init_board();
-			draw_board();
-			delay(6 * delta);
-
-		}
+	// Erzeuge immer wieder neue Startbelegungen
+	while(1){
+		init_board();
+		draw_board();
+		delay(6 * delta);
 	}
-	while(1);
 }
 #endif
 // EOF

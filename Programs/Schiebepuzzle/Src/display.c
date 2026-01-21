@@ -62,7 +62,7 @@
  * @ingroup DISPLAY_CONS
  * @brief Diese Konstante definiert die Farbe eines Spielsteins.
  */
-#define CLR_PIECE          GREEN
+#define CLR_PIECE           GREEN
 
 /**
  * @ingroup DISPLAY_CONS
@@ -86,7 +86,7 @@
  * Zeile des Spielfelds.
  *
  * Die Display-Position eines Felds wird über die Koordinaten linke 
- * obere (tr) und rechte untere (br) Ecke des Rechtecks, das das Feld
+ * obere (tl) und rechte untere (br) Ecke des Rechtecks, das das Feld
  * aufspannt, definiert. Diese Koordinaten können direkt an die 
  * GUI_drawRectangle Funktion übergeben werden.
  */
