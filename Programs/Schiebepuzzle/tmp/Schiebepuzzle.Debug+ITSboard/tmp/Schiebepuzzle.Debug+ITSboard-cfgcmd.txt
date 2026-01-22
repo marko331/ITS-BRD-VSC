@@ -1,0 +1,1 @@
+cmd='/Users/franz/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake;-G;Ninja;-S;<SOURCE_DIR>;-B;<BINARY_DIR>;-DSOLUTION_ROOT=/Users/franz/GIT_HUB/ML_GSP_VSC_KRF/Programs/Schiebepuzzle;-DCMSIS_PACK_ROOT=/Users/franz/.cache/arm/packs;-DCMSIS_COMPILER_ROOT=/Users/franz/.vscode/extensions/arm.cmsis-csolution-1.64.2-darwin-arm64/tools/cmsis-toolbox/etc'

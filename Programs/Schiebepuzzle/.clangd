@@ -412,7 +412,6 @@ CompileFlags:
     - '-D__thumb2__=1'
     - '-D__thumb__=1'
     - '-D__ARMCOMPILER_LIBCXX=1'
-    - '-I/Users/franz/GIT_HUB/ML_GSP_VSC_KRF/Programs/Schiebepuzzle/Inc'
     - >-
       -I/Users/franz/GIT_HUB/ML_GSP_VSC_KRF/Programs/Schiebepuzzle/../../stm32cubef4/Drivers/CMSIS/Device/ST/STM32F4xx/Include
     - >-
@@ -436,3 +435,4 @@ CompileFlags:
       -I/Users/franz/.cache/arm/packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include
     - >-
       -I/Users/franz/GIT_HUB/ML_GSP_VSC_KRF/Programs/Schiebepuzzle/../../ITS_BRD_LIB/Inc
+    - '-I/Users/franz/GIT_HUB/ML_GSP_VSC_KRF/Programs/Schiebepuzzle/Inc'

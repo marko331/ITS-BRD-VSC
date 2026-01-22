@@ -1,0 +1,8 @@
+/Users/franz/GIT_HUB/ML_GSP_VSC_KRF/Programs/Schiebepuzzle/tmp/CMakeFiles/database.dir
+/Users/franz/GIT_HUB/ML_GSP_VSC_KRF/Programs/Schiebepuzzle/tmp/CMakeFiles/Schiebepuzzle.Debug+ITSboard.dir
+/Users/franz/GIT_HUB/ML_GSP_VSC_KRF/Programs/Schiebepuzzle/tmp/CMakeFiles/Schiebepuzzle.Debug+ITSboard-build.dir
+/Users/franz/GIT_HUB/ML_GSP_VSC_KRF/Programs/Schiebepuzzle/tmp/CMakeFiles/Schiebepuzzle.Debug+ITSboard-configure.dir
+/Users/franz/GIT_HUB/ML_GSP_VSC_KRF/Programs/Schiebepuzzle/tmp/CMakeFiles/Schiebepuzzle.Debug+ITSboard-executes.dir
+/Users/franz/GIT_HUB/ML_GSP_VSC_KRF/Programs/Schiebepuzzle/tmp/CMakeFiles/Schiebepuzzle.Debug+ITSboard-database.dir
+/Users/franz/GIT_HUB/ML_GSP_VSC_KRF/Programs/Schiebepuzzle/tmp/CMakeFiles/edit_cache.dir
+/Users/franz/GIT_HUB/ML_GSP_VSC_KRF/Programs/Schiebepuzzle/tmp/CMakeFiles/rebuild_cache.dir

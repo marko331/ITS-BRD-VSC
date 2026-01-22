@@ -1,6 +1,6 @@
 CompileFlags:
   CompilationDatabase: >-
-    /Users/franz/GIT_HUB/ML_GSP_VSC_KRF/Programs/DrehgeberInterrupt/out/DrehgeberInterrupt/ITSboard/Release
+    /Users/franz/GIT_HUB/ML_GSP_VSC_KRF/Programs/DrehgeberInterrupt/out/DrehgeberInterrupt/ITSboard/Debug
   Add:
     - '-D_ILP32=1'
     - '-D_USE_STATIC_INLINE=1'
@@ -136,6 +136,7 @@ CompileFlags:
     - '-D__GCC_ATOMIC_WCHAR_T_LOCK_FREE=2'
     - '-D__GCC_CONSTRUCTIVE_SIZE=64'
     - '-D__GCC_DESTRUCTIVE_SIZE=64'
+    - '-D__GCC_HAVE_DWARF2_CFI_ASM=1'
     - '-D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1=1'
     - '-D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_2=1'
     - '-D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4=1'
@@ -245,13 +246,13 @@ CompileFlags:
     - '-D__MEMORY_SCOPE_SYSTEM=0'
     - '-D__MEMORY_SCOPE_WRKGRP=2'
     - '-D__MEMORY_SCOPE_WVFRNT=3'
+    - '-D__NO_INLINE__=1'
     - '-D__OBJC_BOOL_IS_BOOL=0'
     - '-D__OPENCL_MEMORY_SCOPE_ALL_SVM_DEVICES=3'
     - '-D__OPENCL_MEMORY_SCOPE_DEVICE=2'
     - '-D__OPENCL_MEMORY_SCOPE_SUB_GROUP=4'
     - '-D__OPENCL_MEMORY_SCOPE_WORK_GROUP=1'
     - '-D__OPENCL_MEMORY_SCOPE_WORK_ITEM=0'
-    - '-D__OPTIMIZE__=1'
     - '-D__ORDER_BIG_ENDIAN__=4321'
     - '-D__ORDER_LITTLE_ENDIAN__=1234'
     - '-D__ORDER_PDP_ENDIAN__=3412'
@@ -426,9 +427,9 @@ CompileFlags:
     - >-
       -I/Users/franz/GIT_HUB/ML_GSP_VSC_KRF/Programs/DrehgeberInterrupt/../../ITS_BRD_LIB/Utilities/AddFonts
     - >-
-      -I/Users/franz/GIT_HUB/ML_GSP_VSC_KRF/Programs/DrehgeberInterrupt/tmp/DrehgeberInterrupt.Release+ITSboard
+      -I/Users/franz/GIT_HUB/ML_GSP_VSC_KRF/Programs/DrehgeberInterrupt/tmp/DrehgeberInterrupt.Debug+ITSboard
     - >-
-      -I/Users/franz/GIT_HUB/ML_GSP_VSC_KRF/Programs/DrehgeberInterrupt/RTE/_Release_ITSboard
+      -I/Users/franz/GIT_HUB/ML_GSP_VSC_KRF/Programs/DrehgeberInterrupt/RTE/_Debug_ITSboard
     - '-I/Users/franz/.cache/arm/packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include'
     - >-
       -I/Users/franz/.cache/arm/packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include
