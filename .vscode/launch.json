@@ -5,8 +5,8 @@
             "name": "STLink@pyOCD (launch)",
             "type": "gdbtarget",
             "request": "launch",
-            "cwd": "${workspaceFolder}/Programs/DrehgeberInterrupt",
-            "program": "out/DrehgeberInterrupt/ITSboard/Debug/DrehgeberInterrupt.axf",
+            "cwd": "${workspaceFolder}/Programs/Schiebepuzzle",
+            "program": "out/Schiebepuzzle/ITSboard/Debug/Schiebepuzzle.axf",
             "gdb": "arm-none-eabi-gdb",
             "preLaunchTask": "CMSIS Load",
             "initCommands": [
@@ -46,8 +46,8 @@
             "name": "STLink@pyOCD (attach)",
             "type": "gdbtarget",
             "request": "attach",
-            "cwd": "${workspaceFolder}/Programs/DrehgeberInterrupt",
-            "program": "out/DrehgeberInterrupt/ITSboard/Debug/DrehgeberInterrupt.axf",
+            "cwd": "${workspaceFolder}/Programs/Schiebepuzzle",
+            "program": "out/Schiebepuzzle/ITSboard/Debug/Schiebepuzzle.axf",
             "gdb": "arm-none-eabi-gdb",
             "initCommands": [
                 ""

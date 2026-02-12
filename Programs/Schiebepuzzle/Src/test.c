@@ -160,7 +160,7 @@ void test_game(void){
 	draw_board();
 	delay(delta);
 
-	// Die Spielsteine werden gegen den Uhrzeigersinn (links herum) am äußeren 
+	// Die Spielsteine werden im Uhrzeigersinn (links herum) am äußeren 
 	// Rand auf das benachtbarte freie Feld geschoben.
 	move(5);
 	draw_board();
