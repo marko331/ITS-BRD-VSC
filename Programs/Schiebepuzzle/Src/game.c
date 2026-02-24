@@ -1,6 +1,6 @@
 /**
  ******************************************************************************
- * @file    kniffel.c
+ * @file    game.c
  * @author  Franz Korf
  *          HAW-Hamburg
  *          Labor fuer technische Informatik
