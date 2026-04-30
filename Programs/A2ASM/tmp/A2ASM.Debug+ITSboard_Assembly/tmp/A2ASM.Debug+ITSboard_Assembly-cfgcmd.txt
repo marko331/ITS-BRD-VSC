@@ -1,0 +1,1 @@
+cmd='/Users/markopetreski/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.28.4/bin/cmake;-G;Ninja;-S;<SOURCE_DIR>;-B;<BINARY_DIR>;-DSOLUTION_ROOT=/Users/markopetreski/ITS-BRD-VSC/Programs/A2ASM;-DCMSIS_PACK_ROOT=/Users/markopetreski/.cache/arm/packs;-DCMSIS_COMPILER_ROOT=/Users/markopetreski/.vscode/extensions/arm.cmsis-csolution-1.66.0-darwin-arm64/tools/cmsis-toolbox/etc'

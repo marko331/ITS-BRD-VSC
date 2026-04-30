@@ -1,0 +1,22 @@
+build-idx:
+  generated-by: csolution version 2.13.0+p3-g40b6564e
+  cdefault: ${CMSIS_COMPILER_ROOT}/cdefault.yml
+  csolution: A2ASM.csolution.yml
+  cbuild-run: out/A2ASM+ITSboard_Assembly.cbuild-run.yml
+  tmpdir: tmp
+  cprojects:
+    - cproject: A2ASM.cproject.yml
+  cbuilds:
+    - cbuild: out/A2ASM/ITSboard_Assembly/Debug/A2ASM.Debug+ITSboard_Assembly.cbuild.yml
+      project: A2ASM
+      configuration: .Debug+ITSboard_Assembly
+      messages:
+        warnings:
+          - file '/Users/markopetreski/ITS-BRD-VSC/Programs/A2ASM/.cmsis/A2ASM+ITSboard_Assembly.dbgconf' not found; use --update-rte
+        info:
+          - A2ASM.cbuild-pack.yml - file generated successfully
+          - A2ASM+ITSboard_Assembly.cbuild-run.yml - file generated successfully
+          - A2ASM.Debug+ITSboard_Assembly.cbuild.yml - file generated successfully
+      packs-unused:
+        - pack: ARM::CMSIS-DSP@1.17.0
+        - pack: ARM::CMSIS-NN@7.0.0
