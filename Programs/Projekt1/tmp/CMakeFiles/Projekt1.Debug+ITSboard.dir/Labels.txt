@@ -1,0 +1,16 @@
+# Target labels
+ Projekt1.Debug+ITSboard
+# Source files and their labels
+/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/CMakeFiles/Projekt1.Debug+ITSboard
+/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/CMakeFiles/Projekt1.Debug+ITSboard.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/CMakeFiles/Projekt1.Debug+ITSboard-complete.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/Projekt1.Debug+ITSboard/src/Projekt1.Debug+ITSboard-stamp/Projekt1.Debug+ITSboard-build.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/Projekt1.Debug+ITSboard/src/Projekt1.Debug+ITSboard-stamp/Projekt1.Debug+ITSboard-configure.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/Projekt1.Debug+ITSboard/src/Projekt1.Debug+ITSboard-stamp/Projekt1.Debug+ITSboard-database.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/Projekt1.Debug+ITSboard/src/Projekt1.Debug+ITSboard-stamp/Projekt1.Debug+ITSboard-download.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/Projekt1.Debug+ITSboard/src/Projekt1.Debug+ITSboard-stamp/Projekt1.Debug+ITSboard-executes.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/Projekt1.Debug+ITSboard/src/Projekt1.Debug+ITSboard-stamp/Projekt1.Debug+ITSboard-install.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/Projekt1.Debug+ITSboard/src/Projekt1.Debug+ITSboard-stamp/Projekt1.Debug+ITSboard-mkdir.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/Projekt1.Debug+ITSboard/src/Projekt1.Debug+ITSboard-stamp/Projekt1.Debug+ITSboard-patch.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/Projekt1.Debug+ITSboard/src/Projekt1.Debug+ITSboard-stamp/Projekt1.Debug+ITSboard-test.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/Projekt1.Debug+ITSboard/src/Projekt1.Debug+ITSboard-stamp/Projekt1.Debug+ITSboard-update.rule

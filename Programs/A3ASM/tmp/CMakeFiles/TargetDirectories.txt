@@ -1,0 +1,8 @@
+/Users/markopetreski/ITS-BRD-VSC/Programs/A3ASM/tmp/CMakeFiles/database.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/A3ASM/tmp/CMakeFiles/A3ASM.Debug+ITSboard_Assembly.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/A3ASM/tmp/CMakeFiles/A3ASM.Debug+ITSboard_Assembly-build.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/A3ASM/tmp/CMakeFiles/A3ASM.Debug+ITSboard_Assembly-configure.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/A3ASM/tmp/CMakeFiles/A3ASM.Debug+ITSboard_Assembly-executes.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/A3ASM/tmp/CMakeFiles/A3ASM.Debug+ITSboard_Assembly-database.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/A3ASM/tmp/CMakeFiles/edit_cache.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/A3ASM/tmp/CMakeFiles/rebuild_cache.dir

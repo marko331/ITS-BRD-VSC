@@ -5,8 +5,8 @@
             "name": "STLink@pyOCD (launch)",
             "type": "gdbtarget",
             "request": "launch",
-            "cwd": "${workspaceFolder}/Programs/TestMem",
-            "program": "out/TestMem/ITSboard/Debug/TestMem.axf",
+            "cwd": "${workspaceFolder}/Programs/A3ASM",
+            "program": "out/A3ASM/ITSboard_Assembly/Debug/A3ASM.axf",
             "gdb": "arm-none-eabi-gdb",
             "preLaunchTask": "CMSIS Load",
             "initCommands": [
@@ -46,8 +46,8 @@
             "name": "STLink@pyOCD (attach)",
             "type": "gdbtarget",
             "request": "attach",
-            "cwd": "${workspaceFolder}/Programs/TestMem",
-            "program": "out/TestMem/ITSboard/Debug/TestMem.axf",
+            "cwd": "${workspaceFolder}/Programs/A3ASM",
+            "program": "out/A3ASM/ITSboard_Assembly/Debug/A3ASM.axf",
             "gdb": "arm-none-eabi-gdb",
             "initCommands": [
                 ""

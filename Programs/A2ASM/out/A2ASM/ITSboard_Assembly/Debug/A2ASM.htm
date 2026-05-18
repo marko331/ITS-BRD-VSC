@@ -3,7 +3,7 @@
 <title>Static Call Graph - [/Users/markopetreski/ITS-BRD-VSC/Programs/A2ASM/out/A2ASM/ITSboard_Assembly/Debug/A2ASM.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image /Users/markopetreski/ITS-BRD-VSC/Programs/A2ASM/out/A2ASM/ITSboard_Assembly/Debug/A2ASM.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6240002: Last Updated: Thu Apr 30 13:21:41 2026
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6240002: Last Updated: Mon May  4 18:08:33 2026
 <BR><P>
 <H3>Maximum Stack Usage =        216 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -752,10 +752,10 @@ Global Symbols
 <P><STRONG><a name="[78]"></a>initITSboard</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, init.o(.text.initITSboard))
 <BR><BR>[Stack]<UL><LI>Max Depth = 216<LI>Call Chain = initITSboard &rArr; SystemClock_Config &rArr; Error_Handler &rArr; HAL_GPIO_Init
 </UL>
-<BR>[Calls]<UL><LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stdinout_init
+<BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stdinout_init
 <LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;initGPIOs
 <LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
-<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
 </UL>
 <BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
@@ -815,10 +815,10 @@ Local Symbols
 <P><STRONG><a name="[9c]"></a>SystemClock_Config</STRONG> (Thumb, 184 bytes, Stack size 88 bytes, init.o(.text.SystemClock_Config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 208<LI>Call Chain = SystemClock_Config &rArr; Error_Handler &rArr; HAL_GPIO_Init
 </UL>
-<BR>[Calls]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Error_Handler
-<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
+<BR>[Calls]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
 <LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_OscConfig
 <LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_PWREx_EnableOverDrive
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Error_Handler
 </UL>
 <BR>[Called By]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;initITSboard
 </UL>
@@ -875,8 +875,8 @@ Local Symbols
 <P><STRONG><a name="[aa]"></a>USART_Uninitialize</STRONG> (Thumb, 192 bytes, Stack size 16 bytes, USART_STM32F4xx.o(.text.USART_Uninitialize))
 <BR><BR>[Stack]<UL><LI>Max Depth = 100<LI>Call Chain = USART_Uninitialize &rArr; USART_PowerControl &rArr; HAL_NVIC_DisableIRQ &rArr; __NVIC_DisableIRQ
 </UL>
-<BR>[Calls]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_PowerControl
-<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_DeInit
+<BR>[Calls]<UL><LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_DeInit
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_PowerControl
 </UL>
 <BR>[Called By]<UL><LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART3_Uninitialize
 </UL>
@@ -891,11 +891,11 @@ Local Symbols
 <P><STRONG><a name="[a5]"></a>USART_PowerControl</STRONG> (Thumb, 1118 bytes, Stack size 64 bytes, USART_STM32F4xx.o(.text.USART_PowerControl))
 <BR><BR>[Stack]<UL><LI>Max Depth = 84<LI>Call Chain = USART_PowerControl &rArr; HAL_NVIC_DisableIRQ &rArr; __NVIC_DisableIRQ
 </UL>
-<BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
+<BR>[Calls]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_DisableIRQ
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
 <LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_PeripheralReset
 <LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__NVIC_EnableIRQ
 <LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__NVIC_ClearPendingIRQ
-<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_DisableIRQ
 </UL>
 <BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART3_PowerControl
 <LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Uninitialize
@@ -985,10 +985,10 @@ Local Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 200 + In Cycle
 <LI>Call Chain = USART_Control &rArr;  USART_Control (Cycle)
 </UL>
-<BR>[Calls]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Control
-<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_Abort
+<BR>[Calls]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_Abort
 <LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_DeInit
 <LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Control
 </UL>
 <BR>[Called By]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Control
 <LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART3_Control

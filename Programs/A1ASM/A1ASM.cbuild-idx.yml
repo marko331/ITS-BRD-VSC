@@ -1,0 +1,20 @@
+build-idx:
+  generated-by: csolution version 2.13.0+p3-g40b6564e
+  cdefault: ${CMSIS_COMPILER_ROOT}/cdefault.yml
+  csolution: A1ASM.csolution.yml
+  cbuild-run: out/A1ASM+ITSboard_Assembly.cbuild-run.yml
+  tmpdir: tmp
+  cprojects:
+    - cproject: A1ASM.cproject.yml
+  cbuilds:
+    - cbuild: out/A1ASM/ITSboard_Assembly/Debug/A1ASM.Debug+ITSboard_Assembly.cbuild.yml
+      project: A1ASM
+      configuration: .Debug+ITSboard_Assembly
+      messages:
+        info:
+          - A1ASM.cbuild-pack.yml - file is already up-to-date
+          - A1ASM+ITSboard_Assembly.cbuild-run.yml - file is already up-to-date
+          - A1ASM.Debug+ITSboard_Assembly.cbuild.yml - file is already up-to-date
+      packs-unused:
+        - pack: ARM::CMSIS-DSP@1.17.0
+        - pack: ARM::CMSIS-NN@7.0.0

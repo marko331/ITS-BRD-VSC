@@ -1,0 +1,37 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/ASMProjekt1ASM/tmp/CMakeFiles/ASMProjekt1ASM.Debug+ITSboard_Assembly-build"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/ASMProjekt1ASM/tmp/CMakeFiles/ASMProjekt1ASM.Debug+ITSboard_Assembly-build.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/ASMProjekt1ASM/tmp/ASMProjekt1ASM.Debug+ITSboard_Assembly/src/ASMProjekt1ASM.Debug+ITSboard_Assembly-stamp/ASMProjekt1ASM.Debug+ITSboard_Assembly-build.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/ASMProjekt1ASM/tmp/ASMProjekt1ASM.Debug+ITSboard_Assembly/src/ASMProjekt1ASM.Debug+ITSboard_Assembly-stamp/ASMProjekt1ASM.Debug+ITSboard_Assembly-configure.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/ASMProjekt1ASM/tmp/ASMProjekt1ASM.Debug+ITSboard_Assembly/src/ASMProjekt1ASM.Debug+ITSboard_Assembly-stamp/ASMProjekt1ASM.Debug+ITSboard_Assembly-patch.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/ASMProjekt1ASM/tmp/ASMProjekt1ASM.Debug+ITSboard_Assembly/src/ASMProjekt1ASM.Debug+ITSboard_Assembly-stamp/ASMProjekt1ASM.Debug+ITSboard_Assembly-update.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/ASMProjekt1ASM/tmp/ASMProjekt1ASM.Debug+ITSboard_Assembly/src/ASMProjekt1ASM.Debug+ITSboard_Assembly-stamp/ASMProjekt1ASM.Debug+ITSboard_Assembly-download.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/ASMProjekt1ASM/tmp/ASMProjekt1ASM.Debug+ITSboard_Assembly/src/ASMProjekt1ASM.Debug+ITSboard_Assembly-stamp/ASMProjekt1ASM.Debug+ITSboard_Assembly-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ASMProjekt1ASM.Debug+ITSboard_Assembly"
+		],
+		"name" : "ASMProjekt1ASM.Debug+ITSboard_Assembly-build"
+	}
+}

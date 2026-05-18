@@ -117,8 +117,10 @@
   "cmake.ignoreCMakeListsMissing": true,
   "C_Cpp_Runner.msvcBatchPath": "",
   "clangd.arguments": [
-    "--compile-commands-dir=/Users/franz/GIT_HUB/ML_GSP_VSC_KRF/Programs/TestMem/out/TestMem/ITSboard/Debug"
+    "--compile-commands-dir=/Users/markopetreski/ITS-BRD-VSC/Programs/A3ASM/out/A3ASM/ITSboard_Assembly/Debug"
   ],
   "debug.hideSlowPreLaunchWarning": true,
   "debug.showInStatusBar": "never"
+  ,
+"editor.rulers": []
 }

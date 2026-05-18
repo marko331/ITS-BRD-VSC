@@ -11,12 +11,10 @@ build-idx:
       project: A2ASM
       configuration: .Debug+ITSboard_Assembly
       messages:
-        warnings:
-          - file '/Users/markopetreski/ITS-BRD-VSC/Programs/A2ASM/.cmsis/A2ASM+ITSboard_Assembly.dbgconf' not found; use --update-rte
         info:
-          - A2ASM.cbuild-pack.yml - file generated successfully
-          - A2ASM+ITSboard_Assembly.cbuild-run.yml - file generated successfully
-          - A2ASM.Debug+ITSboard_Assembly.cbuild.yml - file generated successfully
+          - A2ASM.cbuild-pack.yml - file is already up-to-date
+          - A2ASM+ITSboard_Assembly.cbuild-run.yml - file is already up-to-date
+          - A2ASM.Debug+ITSboard_Assembly.cbuild.yml - file is already up-to-date
       packs-unused:
         - pack: ARM::CMSIS-DSP@1.17.0
         - pack: ARM::CMSIS-NN@7.0.0

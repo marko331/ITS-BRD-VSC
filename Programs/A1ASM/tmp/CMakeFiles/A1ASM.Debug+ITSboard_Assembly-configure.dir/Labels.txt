@@ -1,0 +1,10 @@
+# Target labels
+ A1ASM.Debug+ITSboard_Assembly
+# Source files and their labels
+/Users/markopetreski/ITS-BRD-VSC/Programs/A1ASM/tmp/CMakeFiles/A1ASM.Debug+ITSboard_Assembly-configure
+/Users/markopetreski/ITS-BRD-VSC/Programs/A1ASM/tmp/CMakeFiles/A1ASM.Debug+ITSboard_Assembly-configure.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/A1ASM/tmp/A1ASM.Debug+ITSboard_Assembly/src/A1ASM.Debug+ITSboard_Assembly-stamp/A1ASM.Debug+ITSboard_Assembly-configure.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/A1ASM/tmp/A1ASM.Debug+ITSboard_Assembly/src/A1ASM.Debug+ITSboard_Assembly-stamp/A1ASM.Debug+ITSboard_Assembly-patch.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/A1ASM/tmp/A1ASM.Debug+ITSboard_Assembly/src/A1ASM.Debug+ITSboard_Assembly-stamp/A1ASM.Debug+ITSboard_Assembly-update.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/A1ASM/tmp/A1ASM.Debug+ITSboard_Assembly/src/A1ASM.Debug+ITSboard_Assembly-stamp/A1ASM.Debug+ITSboard_Assembly-download.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/A1ASM/tmp/A1ASM.Debug+ITSboard_Assembly/src/A1ASM.Debug+ITSboard_Assembly-stamp/A1ASM.Debug+ITSboard_Assembly-mkdir.rule

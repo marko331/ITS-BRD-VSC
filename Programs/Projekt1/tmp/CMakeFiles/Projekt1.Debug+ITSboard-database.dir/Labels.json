@@ -1,0 +1,37 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/CMakeFiles/Projekt1.Debug+ITSboard-database"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/CMakeFiles/Projekt1.Debug+ITSboard-database.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/Projekt1.Debug+ITSboard/src/Projekt1.Debug+ITSboard-stamp/Projekt1.Debug+ITSboard-database.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/Projekt1.Debug+ITSboard/src/Projekt1.Debug+ITSboard-stamp/Projekt1.Debug+ITSboard-configure.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/Projekt1.Debug+ITSboard/src/Projekt1.Debug+ITSboard-stamp/Projekt1.Debug+ITSboard-patch.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/Projekt1.Debug+ITSboard/src/Projekt1.Debug+ITSboard-stamp/Projekt1.Debug+ITSboard-update.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/Projekt1.Debug+ITSboard/src/Projekt1.Debug+ITSboard-stamp/Projekt1.Debug+ITSboard-download.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/Projekt1.Debug+ITSboard/src/Projekt1.Debug+ITSboard-stamp/Projekt1.Debug+ITSboard-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Projekt1.Debug+ITSboard"
+		],
+		"name" : "Projekt1.Debug+ITSboard-database"
+	}
+}

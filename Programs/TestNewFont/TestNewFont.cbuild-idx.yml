@@ -1,0 +1,22 @@
+build-idx:
+  generated-by: csolution version 2.13.0+p3-g40b6564e
+  cdefault: ${CMSIS_COMPILER_ROOT}/cdefault.yml
+  csolution: TestNewFont.csolution.yml
+  cbuild-run: out/TestNewFont+ITSboard.cbuild-run.yml
+  tmpdir: tmp
+  cprojects:
+    - cproject: TestNewFont.cproject.yml
+  cbuilds:
+    - cbuild: out/TestNewFont/ITSboard/Debug/TestNewFont.Debug+ITSboard.cbuild.yml
+      project: TestNewFont
+      configuration: .Debug+ITSboard
+      messages:
+        warnings:
+          - file '/Users/markopetreski/ITS-BRD-VSC/Programs/TestNewFont/.cmsis/TestNewFont+ITSboard.dbgconf' not found; use --update-rte
+        info:
+          - TestNewFont.cbuild-pack.yml - file generated successfully
+          - TestNewFont+ITSboard.cbuild-run.yml - file is already up-to-date
+          - TestNewFont.Debug+ITSboard.cbuild.yml - file generated successfully
+      packs-unused:
+        - pack: ARM::CMSIS-DSP@1.17.0
+        - pack: ARM::CMSIS-NN@7.0.0

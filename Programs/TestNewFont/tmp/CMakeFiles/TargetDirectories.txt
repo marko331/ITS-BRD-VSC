@@ -1,0 +1,8 @@
+/Users/markopetreski/ITS-BRD-VSC/Programs/TestNewFont/tmp/CMakeFiles/database.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/TestNewFont/tmp/CMakeFiles/TestNewFont.Debug+ITSboard.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/TestNewFont/tmp/CMakeFiles/TestNewFont.Debug+ITSboard-build.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/TestNewFont/tmp/CMakeFiles/TestNewFont.Debug+ITSboard-configure.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/TestNewFont/tmp/CMakeFiles/TestNewFont.Debug+ITSboard-executes.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/TestNewFont/tmp/CMakeFiles/TestNewFont.Debug+ITSboard-database.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/TestNewFont/tmp/CMakeFiles/edit_cache.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/TestNewFont/tmp/CMakeFiles/rebuild_cache.dir

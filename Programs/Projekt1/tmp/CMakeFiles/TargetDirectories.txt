@@ -1,0 +1,8 @@
+/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/CMakeFiles/database.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/CMakeFiles/Projekt1.Debug+ITSboard.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/CMakeFiles/Projekt1.Debug+ITSboard-build.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/CMakeFiles/Projekt1.Debug+ITSboard-configure.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/CMakeFiles/Projekt1.Debug+ITSboard-executes.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/CMakeFiles/Projekt1.Debug+ITSboard-database.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/CMakeFiles/edit_cache.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/Projekt1/tmp/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,22 @@
+build-idx:
+  generated-by: csolution version 2.13.0+p3-g40b6564e
+  cdefault: ${CMSIS_COMPILER_ROOT}/cdefault.yml
+  csolution: A3ASM.csolution.yml
+  cbuild-run: out/A3ASM+ITSboard_Assembly.cbuild-run.yml
+  tmpdir: tmp
+  cprojects:
+    - cproject: A3ASM.cproject.yml
+  cbuilds:
+    - cbuild: out/A3ASM/ITSboard_Assembly/Debug/A3ASM.Debug+ITSboard_Assembly.cbuild.yml
+      project: A3ASM
+      configuration: .Debug+ITSboard_Assembly
+      messages:
+        warnings:
+          - file '/Users/markopetreski/ITS-BRD-VSC/Programs/A3ASM/.cmsis/A3ASM+ITSboard_Assembly.dbgconf' not found; use --update-rte
+        info:
+          - A3ASM.cbuild-pack.yml - file is already up-to-date
+          - A3ASM+ITSboard_Assembly.cbuild-run.yml - file is already up-to-date
+          - A3ASM.Debug+ITSboard_Assembly.cbuild.yml - file is already up-to-date
+      packs-unused:
+        - pack: ARM::CMSIS-DSP@1.17.0
+        - pack: ARM::CMSIS-NN@7.0.0

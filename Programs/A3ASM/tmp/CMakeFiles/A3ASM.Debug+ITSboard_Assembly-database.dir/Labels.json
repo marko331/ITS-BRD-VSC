@@ -1,0 +1,37 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/A3ASM/tmp/CMakeFiles/A3ASM.Debug+ITSboard_Assembly-database"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/A3ASM/tmp/CMakeFiles/A3ASM.Debug+ITSboard_Assembly-database.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/A3ASM/tmp/A3ASM.Debug+ITSboard_Assembly/src/A3ASM.Debug+ITSboard_Assembly-stamp/A3ASM.Debug+ITSboard_Assembly-database.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/A3ASM/tmp/A3ASM.Debug+ITSboard_Assembly/src/A3ASM.Debug+ITSboard_Assembly-stamp/A3ASM.Debug+ITSboard_Assembly-configure.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/A3ASM/tmp/A3ASM.Debug+ITSboard_Assembly/src/A3ASM.Debug+ITSboard_Assembly-stamp/A3ASM.Debug+ITSboard_Assembly-patch.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/A3ASM/tmp/A3ASM.Debug+ITSboard_Assembly/src/A3ASM.Debug+ITSboard_Assembly-stamp/A3ASM.Debug+ITSboard_Assembly-update.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/A3ASM/tmp/A3ASM.Debug+ITSboard_Assembly/src/A3ASM.Debug+ITSboard_Assembly-stamp/A3ASM.Debug+ITSboard_Assembly-download.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/A3ASM/tmp/A3ASM.Debug+ITSboard_Assembly/src/A3ASM.Debug+ITSboard_Assembly-stamp/A3ASM.Debug+ITSboard_Assembly-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"A3ASM.Debug+ITSboard_Assembly"
+		],
+		"name" : "A3ASM.Debug+ITSboard_Assembly-database"
+	}
+}

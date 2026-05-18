@@ -1,0 +1,16 @@
+# Target labels
+ TestNewFont.Debug+ITSboard
+# Source files and their labels
+/Users/markopetreski/ITS-BRD-VSC/Programs/TestNewFont/tmp/CMakeFiles/TestNewFont.Debug+ITSboard
+/Users/markopetreski/ITS-BRD-VSC/Programs/TestNewFont/tmp/CMakeFiles/TestNewFont.Debug+ITSboard.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/TestNewFont/tmp/CMakeFiles/TestNewFont.Debug+ITSboard-complete.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/TestNewFont/tmp/TestNewFont.Debug+ITSboard/src/TestNewFont.Debug+ITSboard-stamp/TestNewFont.Debug+ITSboard-build.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/TestNewFont/tmp/TestNewFont.Debug+ITSboard/src/TestNewFont.Debug+ITSboard-stamp/TestNewFont.Debug+ITSboard-configure.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/TestNewFont/tmp/TestNewFont.Debug+ITSboard/src/TestNewFont.Debug+ITSboard-stamp/TestNewFont.Debug+ITSboard-database.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/TestNewFont/tmp/TestNewFont.Debug+ITSboard/src/TestNewFont.Debug+ITSboard-stamp/TestNewFont.Debug+ITSboard-download.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/TestNewFont/tmp/TestNewFont.Debug+ITSboard/src/TestNewFont.Debug+ITSboard-stamp/TestNewFont.Debug+ITSboard-executes.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/TestNewFont/tmp/TestNewFont.Debug+ITSboard/src/TestNewFont.Debug+ITSboard-stamp/TestNewFont.Debug+ITSboard-install.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/TestNewFont/tmp/TestNewFont.Debug+ITSboard/src/TestNewFont.Debug+ITSboard-stamp/TestNewFont.Debug+ITSboard-mkdir.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/TestNewFont/tmp/TestNewFont.Debug+ITSboard/src/TestNewFont.Debug+ITSboard-stamp/TestNewFont.Debug+ITSboard-patch.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/TestNewFont/tmp/TestNewFont.Debug+ITSboard/src/TestNewFont.Debug+ITSboard-stamp/TestNewFont.Debug+ITSboard-test.rule
+/Users/markopetreski/ITS-BRD-VSC/Programs/TestNewFont/tmp/TestNewFont.Debug+ITSboard/src/TestNewFont.Debug+ITSboard-stamp/TestNewFont.Debug+ITSboard-update.rule
