@@ -53,3 +53,61 @@ Deshalb beginnt das Streichen erst bei 7*7 = 49.
 BHI  (branch if higher)      unsigned groesser als   -> Abbruch beider Schleifen
 BEQ  (branch if equal)       gleich                  -> Fallunterscheidung
 B    (branch unconditional)  immer                   -> Schleife wiederholen
+
+
+
+
+** Abspeichern der Primzahlen
+
+Nach dem Sieb enthält das Feld istPrim für jede Zahl eine Markierung.
+
+0 = keine Primzahl
+1 = Primzahl
+
+Zusätzlich wird das Feld primFeld angelegt.
+
+primFeld
+FILL 200, 4
+
+In diesem Feld werden die gefundenen Primzahlen gespeichert.
+
+** Registerbelegung Abspeichern
+
+r0 = i              aktuelle Zahl (Laufvariable)
+r2 = Adresse istPrim
+r3 = istPrim[i]     gelesener Wert (0 oder 1)
+r4 = Adresse primFeld
+r5 = Offset zur nächsten freien Speicherstelle
+
+** Schleife zum Abspeichern
+
+Die Schleife läuft von i = 2 bis i = 1000.
+
+CMP r0, #1000
+BHI enddo_03
+
+Für jede Zahl wird geprüft, ob istPrim[i] = 1 ist.
+
+LDRB r3, [r2, r0]
+CMP r3, #1
+BNE endif_03
+
+Ist der Wert 1, wird die Zahl in primFeld gespeichert.
+
+STR r0, [r4, r5]
+
+Danach wird der Offset um 4 Byte erhöht.
+
+ADD r5, r5, #4
+
+Es werden nur Primzahlen gespeichert.
+Nicht-Primzahlen werden übersprungen.
+
+** Kontrolle der gespeicherten Primzahlen
+
+Die gespeicherten Primzahlen können im Watch-Fenster angezeigt werden.
+
+*((uint32_t *)&primFeld)@200
+
+Im Watch-Fenster erscheinen anschließend die Primzahlen:
+2, 3, 5, 7, 11, 13, ...

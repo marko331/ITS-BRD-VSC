@@ -89,6 +89,9 @@ istPrim
     DCB 0
     FILL 999, 1
 
+primFeld
+    FILL 200, 0, 4        ; Platz für 200 Primzahlen, je 4 Byte
+
 	AREA |.text|, CODE, READONLY, ALIGN = 3
 		EXPORT main
 main 
@@ -186,7 +189,68 @@ step_01 				; Ende der If-Abfrage, wenn p keine Primzahl ist, wird hier zum näc
 
 enddo_01
 
-stop ; Das Sieb ist fertig und alle Primzahlen von 1 bis 1000 wurden gefunden. Jetzt wird das Programm angehalten.
+; ------------------------------------------------
+; Abspeichern der gefundenen Primzahlen
+; ------------------------------------------------
+; r0 = i
+; r2 = Adresse des Feldes istPrim
+; r3 = Wert istPrim[i]
+; r4 = Adresse von primFeld
+; r5 = Offset zur nächsten freien Speicherstelle in primFeld
+; Alle Zahlen von 2 bis 1000 werden geprüft.
+; wird eine Primzahl gefunden, wird sie in 
+; das Feld primFeld gespeichert.
+; ------------------------------------------------
+
+    MOV r0, #2              ; i = 2
+    LDR r2, =istPrim        ; Adresse des Sieb-Feldes
+    LDR r4, =primFeld       ; Adresse des Primzahlen-Feldes
+    MOV r5, #0              ; Offset = 0
+
+; ------------------------------------------------
+; Schleife über alle Zahlen von 2 bis 1000
+; ------------------------------------------------
+
+until_03
+
+    CMP r0, #1000         ; prüfen ob i > 1000
+    BHI enddo_03            ; wenn ja, Schleife beenden
+
+; ------------------------------------------------
+; If-Abfrage: Prüfen ob die aktuelle Zahl (i) eine Primzahl ist
+; ------------------------------------------------
+
+if_03
+
+    LDRB r3, [r2, r0]       ; Wert von istPrim[i] laden
+    CMP r3, #1              ; istPrim[i] == 1?
+    BNE endif_03            ; wenn nicht, nicht speichern
+
+; ------------------------------------------------
+; i ist eine Primzahl, in primFeld speichern
+; ------------------------------------------------
+
+then_03
+
+    STR r0, [r4, r5]        ; Primzahl i in primFeld speichern
+    ADD r5, r5, #4          ; nächste freie Speicherstelle berechenen, offset um 4 Byte erhöhen
+
+; ------------------------------------------------
+; Ende der If-Abfrage, zum nächsten i wechseln
+; ------------------------------------------------
+
+endif_03
+
+    ADD r0, r0, #1          ; i++ (um 1 erhöhen) (Nächste Zahl untersuchen)
+    B until_03				; zurück zum Anfang der Schleife springen
+
+; ------------------------------------------------
+; Programmende: Alle Primzahlen wurden erfolgreich gespeichert
+; ------------------------------------------------
+
+enddo_03
+
+stop
 
     B stop			; Endlosschleife, damit das Programm nicht weiterläuft
 

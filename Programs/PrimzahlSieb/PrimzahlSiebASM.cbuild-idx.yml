@@ -1,0 +1,22 @@
+build-idx:
+  generated-by: csolution version 2.13.0+p3-g40b6564e
+  cdefault: ${CMSIS_COMPILER_ROOT}/cdefault.yml
+  csolution: PrimzahlSiebASM.csolution.yml
+  cbuild-run: out/PrimzahlSiebASM+ITSboard_Assembly.cbuild-run.yml
+  tmpdir: tmp
+  cprojects:
+    - cproject: PrimzahlSiebASM.cproject.yml
+  cbuilds:
+    - cbuild: out/PrimzahlSiebASM/ITSboard_Assembly/Debug/PrimzahlSiebASM.Debug+ITSboard_Assembly.cbuild.yml
+      project: PrimzahlSiebASM
+      configuration: .Debug+ITSboard_Assembly
+      messages:
+        warnings:
+          - file '/Users/markopetreski/ITS-BRD-VSC/Programs/PrimzahlSieb/.cmsis/PrimzahlSiebASM+ITSboard_Assembly.dbgconf' not found; use --update-rte
+        info:
+          - PrimzahlSiebASM.cbuild-pack.yml - file is already up-to-date
+          - PrimzahlSiebASM+ITSboard_Assembly.cbuild-run.yml - file is already up-to-date
+          - PrimzahlSiebASM.Debug+ITSboard_Assembly.cbuild.yml - file is already up-to-date
+      packs-unused:
+        - pack: ARM::CMSIS-DSP@1.17.0
+        - pack: ARM::CMSIS-NN@7.0.0

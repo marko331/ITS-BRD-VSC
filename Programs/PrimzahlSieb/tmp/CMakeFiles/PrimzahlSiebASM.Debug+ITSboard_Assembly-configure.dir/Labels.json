@@ -1,0 +1,34 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/PrimzahlSieb/tmp/CMakeFiles/PrimzahlSiebASM.Debug+ITSboard_Assembly-configure"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/PrimzahlSieb/tmp/CMakeFiles/PrimzahlSiebASM.Debug+ITSboard_Assembly-configure.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/PrimzahlSieb/tmp/PrimzahlSiebASM.Debug+ITSboard_Assembly/src/PrimzahlSiebASM.Debug+ITSboard_Assembly-stamp/PrimzahlSiebASM.Debug+ITSboard_Assembly-configure.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/PrimzahlSieb/tmp/PrimzahlSiebASM.Debug+ITSboard_Assembly/src/PrimzahlSiebASM.Debug+ITSboard_Assembly-stamp/PrimzahlSiebASM.Debug+ITSboard_Assembly-patch.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/PrimzahlSieb/tmp/PrimzahlSiebASM.Debug+ITSboard_Assembly/src/PrimzahlSiebASM.Debug+ITSboard_Assembly-stamp/PrimzahlSiebASM.Debug+ITSboard_Assembly-update.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/PrimzahlSieb/tmp/PrimzahlSiebASM.Debug+ITSboard_Assembly/src/PrimzahlSiebASM.Debug+ITSboard_Assembly-stamp/PrimzahlSiebASM.Debug+ITSboard_Assembly-download.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/PrimzahlSieb/tmp/PrimzahlSiebASM.Debug+ITSboard_Assembly/src/PrimzahlSiebASM.Debug+ITSboard_Assembly-stamp/PrimzahlSiebASM.Debug+ITSboard_Assembly-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"PrimzahlSiebASM.Debug+ITSboard_Assembly"
+		],
+		"name" : "PrimzahlSiebASM.Debug+ITSboard_Assembly-configure"
+	}
+}

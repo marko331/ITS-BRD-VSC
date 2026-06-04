@@ -1,0 +1,8 @@
+/Users/markopetreski/ITS-BRD-VSC/Programs/PrimzahlSieb/tmp/CMakeFiles/database.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/PrimzahlSieb/tmp/CMakeFiles/PrimzahlSiebASM.Debug+ITSboard_Assembly.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/PrimzahlSieb/tmp/CMakeFiles/PrimzahlSiebASM.Debug+ITSboard_Assembly-build.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/PrimzahlSieb/tmp/CMakeFiles/PrimzahlSiebASM.Debug+ITSboard_Assembly-configure.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/PrimzahlSieb/tmp/CMakeFiles/PrimzahlSiebASM.Debug+ITSboard_Assembly-executes.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/PrimzahlSieb/tmp/CMakeFiles/PrimzahlSiebASM.Debug+ITSboard_Assembly-database.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/PrimzahlSieb/tmp/CMakeFiles/edit_cache.dir
+/Users/markopetreski/ITS-BRD-VSC/Programs/PrimzahlSieb/tmp/CMakeFiles/rebuild_cache.dir
