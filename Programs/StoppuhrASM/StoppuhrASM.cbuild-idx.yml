@@ -1,0 +1,22 @@
+build-idx:
+  generated-by: csolution version 2.13.0+p3-g40b6564e
+  cdefault: ${CMSIS_COMPILER_ROOT}/cdefault.yml
+  csolution: StoppuhrASM.csolution.yml
+  cbuild-run: out/StoppuhrASM+ITSboard_Assembly.cbuild-run.yml
+  tmpdir: tmp
+  cprojects:
+    - cproject: StoppuhrASM.cproject.yml
+  cbuilds:
+    - cbuild: out/StoppuhrASM/ITSboard_Assembly/Debug/StoppuhrASM.Debug+ITSboard_Assembly.cbuild.yml
+      project: StoppuhrASM
+      configuration: .Debug+ITSboard_Assembly
+      messages:
+        warnings:
+          - file '/Users/markopetreski/ITS-BRD-VSC/Programs/StoppuhrASM/.cmsis/StoppuhrASM+ITSboard_Assembly.dbgconf' not found; use --update-rte
+        info:
+          - StoppuhrASM.cbuild-pack.yml - file is already up-to-date
+          - StoppuhrASM+ITSboard_Assembly.cbuild-run.yml - file is already up-to-date
+          - StoppuhrASM.Debug+ITSboard_Assembly.cbuild.yml - file is already up-to-date
+      packs-unused:
+        - pack: ARM::CMSIS-DSP@1.17.0
+        - pack: ARM::CMSIS-NN@7.0.0

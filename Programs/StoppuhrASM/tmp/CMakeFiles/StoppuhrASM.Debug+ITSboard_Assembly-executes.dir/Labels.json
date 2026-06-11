@@ -1,0 +1,40 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/StoppuhrASM/tmp/CMakeFiles/StoppuhrASM.Debug+ITSboard_Assembly-executes"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/StoppuhrASM/tmp/CMakeFiles/StoppuhrASM.Debug+ITSboard_Assembly-executes.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/StoppuhrASM/tmp/StoppuhrASM.Debug+ITSboard_Assembly/src/StoppuhrASM.Debug+ITSboard_Assembly-stamp/StoppuhrASM.Debug+ITSboard_Assembly-executes.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/StoppuhrASM/tmp/StoppuhrASM.Debug+ITSboard_Assembly/src/StoppuhrASM.Debug+ITSboard_Assembly-stamp/StoppuhrASM.Debug+ITSboard_Assembly-build.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/StoppuhrASM/tmp/StoppuhrASM.Debug+ITSboard_Assembly/src/StoppuhrASM.Debug+ITSboard_Assembly-stamp/StoppuhrASM.Debug+ITSboard_Assembly-configure.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/StoppuhrASM/tmp/StoppuhrASM.Debug+ITSboard_Assembly/src/StoppuhrASM.Debug+ITSboard_Assembly-stamp/StoppuhrASM.Debug+ITSboard_Assembly-patch.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/StoppuhrASM/tmp/StoppuhrASM.Debug+ITSboard_Assembly/src/StoppuhrASM.Debug+ITSboard_Assembly-stamp/StoppuhrASM.Debug+ITSboard_Assembly-update.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/StoppuhrASM/tmp/StoppuhrASM.Debug+ITSboard_Assembly/src/StoppuhrASM.Debug+ITSboard_Assembly-stamp/StoppuhrASM.Debug+ITSboard_Assembly-download.rule"
+		},
+		{
+			"file" : "/Users/markopetreski/ITS-BRD-VSC/Programs/StoppuhrASM/tmp/StoppuhrASM.Debug+ITSboard_Assembly/src/StoppuhrASM.Debug+ITSboard_Assembly-stamp/StoppuhrASM.Debug+ITSboard_Assembly-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"StoppuhrASM.Debug+ITSboard_Assembly"
+		],
+		"name" : "StoppuhrASM.Debug+ITSboard_Assembly-executes"
+	}
+}
